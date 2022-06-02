@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\platform;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
+Route::get('/',[platform::class, 'platform_title']);
+Route::get('/about-us',[platform::class, 'about_title']);
+Route::get('/faq',[platform::class, 'faq_title']);
+// Route::view('/faq','faq');
+
+// Route::get('/', function () 
+// {
+//     // return view('layouts/header');
+//     return view('platform');
     
 // });
-
-Route::get('/', function () 
-{
-    return view('layouts/header');
-    
-});
 
 

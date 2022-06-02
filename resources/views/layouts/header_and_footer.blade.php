@@ -13,11 +13,12 @@
     <link href="fontAwesome\solid.css" rel="stylesheet" type="text/css"> --}}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acco Aid GH  </title>
+    {{-- <title>Acco Aid GH  </title> --}}
     <link rel="icon" type="image/x-icon" href="images\favicon.png">
 </head>
 <body class="">
 
+    {{-- Header Section --}}
     <div class="head-section fixed-top">
         {{-- First navbar --}}
         <nav class="navbar navbar-light First-navbar ">
@@ -45,7 +46,7 @@
         {{-- Second navbar --}}
         <nav class="navbar navbar-expand-lg navbar-light Second-navbar ">
             <div class="container-fluid">
-              <a class="navbar-brand ps-5" href="#" style="" >
+              <a class="navbar-brand ps-5" href="/" style="" >
                 <img src="images\logo.png" alt="logo" srcset="" style="width:250px">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,10 +63,10 @@
                       Pages
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Our platform</a></li>
-                      <li><a class="dropdown-item" href="#">About Us</a></li>
-                      <li><a class="dropdown-item" href="#">How to book a room</a></li>
-                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      <li><a class="dropdown-item" href="/">Our platform</a></li>
+                      <li><a class="dropdown-item" href="about-us">About Us</a></li>
+                      <li><a class="dropdown-item" href="/#available-rooms">How to book a room</a></li>
+                      <li><a class="dropdown-item" href="faq">FAQ</a></li>
                       <li><a class="dropdown-item" href="#">Reviews</a></li>
                       <li><a class="dropdown-item" href="#">Help</a></li>
                       <li><a class="dropdown-item" href="#">Contacts</a></li>
@@ -90,73 +91,10 @@
      
     </div>
 
-    <div class="sub-body">
-      
-      <div class="hero-section">
-          {{-- platform-hero-section --}}
-          <div class="platform-hero-image" style="">
-            <div class="platform-hero-background" style="">
-              <div class="hero-section-title" style="">
-                Do you need <br>  a room? 
-                {{-- AccoAid <br> get you covered --}}
-              </div>
-              <div class="hero-section-body ">
-                ACCOAID get you covered, consectetur adipisicing elit. <br> Amet id praesentium, magnam pariatur saepe eaque maxime  ab <br> doloremque 
-              </div>
-            </div>
-          </div>
-      </div>
+    @yield('body')
 
 
-      <div class="hero-body "> 
-        <div class="row hero-body-sub">
-          <div class="col-7 sub-hero-text">
-            <div class="sub-hero-title ">
-              Explor Our <br> Available Rooms
-              <hr class="short-line">
-            </div>
-            <div class="sub-hero-body ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe rem molestiae hic! At temporibus minima placeat vero.
-              <br> <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              <br> <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae architecto exercitationem, nobis dolorem itaque laudantium nam et illo
-            </div>
-            <div class="button">
-              <a class="buttons" href="#"> Explore Rooms <i class="fa-solid fa-arrow-right-long"></i> </a>
-            </div>
-          </div>
-
-          <div class="col-5 sub-hero-right">
-            <div class="right-picture">
-              <img class="main-left-img" src="images\platform-hero-2.jpg" alt="room" srcset="">
-              <img class="sub-left-img" src="images\platform-hero-3.jpg" alt="room" srcset="">
-            </div>
-          </div>
-        </div>
-
-        <div class="row second-section">
-          <div class="col-6 second-section-left">
-            <img class="second-section-picture" src="images\Book-space.png" alt="Book-space">
-          </div>
-          <div class="col-6 second-section-right">
-            <div class="second-section-title">
-              How To Book <br> Available Rooms
-              <hr class="short-line">
-            </div>
-            <div class="2nd-section-body">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, delectus voluptatum exercitationem consequuntur ab quas libero asperiores ipsam nobis reiciendis corrupti excepturi ipsum sapiente ad facilis odio suscipit officiis culpa!</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, delectus voluptatum exercitationem consequuntur ab quas libero asperiores ipsam nobis reiciendis corrupti excepturi ipsum sapiente ad facilis odio suscipit officiis culpa!</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, delectus voluptatum exercitationem consequuntur ab quas libero asperiores ipsam nobis reiciendis corrupti excepturi ipsum sapiente ad facilis odio suscipit officiis culpa!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-    {{-- Footer --}}
+    {{-- Footer Section--}}
     <div class="bg-dark footer" style="background-color: ">
         <div class="row text-light">
           <div class="col-3">
@@ -206,45 +144,9 @@
       <span class="terms">Terms of Services </span> Privacy Policy
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
 
 
     {{-- Bootstrap files --}}
-    {{-- <script src="js/backendScript.js"></script> --}}
     <script src="js/Bootstrapjquery.js"></script>
     <script defer src="js/all.js"></script>
     <script src="js/Propper.js"></script>

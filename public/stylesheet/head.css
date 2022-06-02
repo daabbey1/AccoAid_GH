@@ -28,8 +28,7 @@ html, body {
 @media(min-width: 1200px) {
     /****************************** Header Section ******************************/
     .First-navbar{
-        /* background-color: rgb(252, 247, 247); */
-        background-color: rgba(184, 102, 102, 0.342);
+        background-color: #E7CBCB;
     }
     .Second-navbar{
         background-color: rgb(252, 247, 247);
@@ -198,7 +197,7 @@ html, body {
     /* 2nd section */
     .second-section{
         margin-top: 160px;
-        /* margin-bottom: 120px; */
+        margin-bottom: 200px;
     }
 
     .second-section-right{
@@ -219,6 +218,252 @@ html, body {
         height: 55vh;  
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     }
+
+
+    /******************* About Section *******************/
+    .about-us{
+        background: url('../images/about-background.jpg') top/cover fixed no-repeat ;
+    }
+    .about-hero-image{
+        background: url('../images/about-hero.jpg') top/cover fixed no-repeat ;
+        height: 75vh;
+        margin-top: 120px;
+        /* border-radius: 100%; */
+    }
+
+    .about-hero-background{
+        background: linear-gradient(to left top, rgba(0, 0, 255, 0.207), rgba(248, 80, 50, 0.327)) !important;
+        height:75vh;
+        text-align: center;
+    }
+
+    .about-section-title{
+        color: aliceblue;
+        font-size: 75px;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        line-height: 80px;
+        padding-top: 23% ;
+    }
+
+    .hero-section-body{
+
+    }
+
+    /* Our Story */
+    .our-story{
+        margin: 200px 200px 100px 200px;
+    }
+
+    .story-image{
+        width: 100%;
+        margin-left: auto;
+        /* margin-right: auto; */
+    }
+
+    .story-title{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 44px;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .story-body{
+        /* margin-top: 70px; */
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .contact-btn{
+        background-color: rgb(248, 79, 50);
+        padding: 10px 25px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+    .contact-btn:hover{
+        background-color: rgb(252, 42, 5);
+        padding: 10px 25px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+
+     /* Our Mission  */
+    .our-mission{
+        margin: 100px 200px 200px 200px;
+    }
+
+    .mission-image{
+        width: 100%;
+        margin-left: auto;
+        /* margin-right: auto; */
+    }
+
+    .mission-title{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 44px;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .mission-body{
+        /* margin-top: 70px; */
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    /* our-values */
+    .our-values{
+        margin: 150px 0px 150px 0px;
+        /* background-color: #FDD4CC; */
+        background-color: #E7CBCB;
+        padding: 150px 200px 100px 200px;
+        text-align: center;
+    }
+
+    .value-title{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 44px;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        color: white;
+    }
+
+    .value-body{
+        color: white;
+        font-size: 19px;
+        /* font-weight: 400; */
+        font-family: sans-serif;
+        /* letter-spacing: 1px; */ 
+        word-spacing: 2px;
+    }
+
+
+    .value-line1{
+        width: 150px;
+        color: white;
+        border: 3px solid white;
+    }
+
+    .value-line2{
+        width: 150px;
+        color: white;
+        border: 3px solid white;
+        float: right;
+        margin-top: 40px;
+    }
+
+   /* Our Team */
+   .our-team{
+    text-align: center;
+    margin: 0px 100px;
+    padding-bottom: 100px;
+    }
+
+    .team-title{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 44px;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 1px; 
+        margin-bottom: 40px;
+    }
+
+    .team-line{
+        width: 150px;
+        color: rgb(248, 79, 50);
+        border: 2px solid rgb(248, 79, 50);
+        margin: auto;
+    }
+
+    .team-body{
+        margin-top: 50px;
+    }
+
+    .team-profile{
+        /* color: rgb(248, 79, 50); */
+        /* border: 2px solid rgb(248, 79, 50); */
+        /* padding: 50px; */
+    }
+
+   .profile-image{
+       width: 60%;
+       border-radius: 400px;
+   }
+
+   .profile-name{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: sans-serif;
+        /* letter-spacing: 2px; */
+   }
+
+   .profile-position{
+        font-size: 15px;
+   }
+
+   /******************* FAQ Section *******************/
+   .faq{
+        margin: 200px 200px 100px 200px;
+   }
+
+   .faq-title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #5255EE;  
+   }
+
+   .faq-line{
+    width: 100px;
+    color: #5255EE;
+    border: 3px solid #5255EE; 
+   }
+
+   .search-space{
+       display: flex;
+       display: block;
+       width: 100%;
+   }
+
+   .search-box{
+       width: 90%;
+       padding: 7px 10px;
+       border-radius: 10px 0px 0px 10px;
+       border: 2px solid #5255EE;
+       border-right:none;
+       outline: none;
+   }
+
+   .search-btn{
+       width: auto;
+        padding: 7px 10px;
+        border-radius: 0px 10px 10px 0px;
+        border: 2px solid #5255EE;
+        color: rgb(248, 79, 50);
+        background-color: white ;
+        margin-left: -5px;
+        border-left:none;
+        outline: none;
+   }
+   
+
+
+
+
+
 
 
 
