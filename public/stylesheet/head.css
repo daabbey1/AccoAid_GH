@@ -414,7 +414,8 @@ html, body {
 
    /******************* FAQ Section *******************/
    .faq{
-        margin: 200px 200px 100px 200px;
+        padding: 200px 200px 100px 200px;
+        background-color: #aaaaaa15;
    }
 
    .faq-title{
@@ -445,6 +446,7 @@ html, body {
        border: 2px solid #5255EE;
        border-right:none;
        outline: none;
+       /* background-color: #aaaaaa15; */
    }
 
    .search-btn{
@@ -457,6 +459,42 @@ html, body {
         margin-left: -5px;
         border-left:none;
         outline: none;
+        /* background-color: #aaaaaa15; */
+   }
+
+   /* Tenant */
+   .tenant{
+       margin-top: 150px;
+   }
+
+   .faq-tenant-head{
+       border-left: 3px solid #5255EE;
+       padding-left: 5px;
+       font-size: 22px;
+       font-weight: 400;
+       font-family: sans-serif;
+       letter-spacing: 2px;
+   }
+
+   .faq-sheet{
+       box-shadow: 1px 1px 5px  #aaaaaa;
+       padding: 65px 45px 45px 45px;
+       border-radius: 10px;
+       height: 70vh;
+       background-color: white;
+       /* -ms-transform: rotate(7deg); 
+        -webkit-transform: rotate(7deg); 
+        transform: rotate(7deg); */
+   }
+
+   .faq-row{
+       margin-bottom: 10px;
+   }
+   .faq-tenant-title{
+       font-size: 18px;
+       font-weight: 400px;
+       color: #5255EE;
+       font-family: Arial, Helvetica, sans-serif;
    }
    
 
