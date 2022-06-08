@@ -17,6 +17,8 @@ use App\Http\Controllers\platform;
 Route::get('/',[platform::class, 'platform_title']);
 Route::get('/about-us',[platform::class, 'about_title']);
 Route::get('/faq',[platform::class, 'faq_title']);
+Route::get('/review',[platform::class, 'review_title']);
+Route::get('/review',[platform::class, 'contact_title']);
 // Route::view('/faq','faq');
 
 // Route::get('/', function () 

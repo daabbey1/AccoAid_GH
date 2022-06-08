@@ -66,10 +66,10 @@
                       <li><a class="dropdown-item" href="/">Our platform</a></li>
                       <li><a class="dropdown-item" href="about-us">About Us</a></li>
                       <li><a class="dropdown-item" href="/#available-rooms">How to book a room</a></li>
-                      <li><a class="dropdown-item" href="faq">FAQ</a></li>
-                      <li><a class="dropdown-item" href="#">Reviews</a></li>
-                      <li><a class="dropdown-item" href="#">Help</a></li>
-                      <li><a class="dropdown-item" href="#">Contacts</a></li>
+                      <li><a class="dropdown-item" href="faq">FAQ / Help</a></li>
+                      <li><a class="dropdown-item" href="review">Reviews</a></li>
+                      {{-- <li><a class="dropdown-item" href="#">Help</a></li> --}}
+                      <li><a class="dropdown-item" href="contact">Contacts</a></li>
                       <li><a class="dropdown-item" href="#">Terms & Policy</a></li>
                       <li><a class="dropdown-item" href="#">Privcy</a></li>
                     </ul>

@@ -27,4 +27,18 @@ class platform extends Controller
         return view('faq')->with('name',$name);
     }
 
+    // Review
+    public function review_title()
+    {
+        $name = "Review";
+        return view('review')->with('name',$name);
+    }
+
+    // Contact
+    public function contact_title()
+    {
+        $name = "Contact";
+        return view('contact')->with('name',$name);
+    }
+
 }
