@@ -41,4 +41,18 @@ class platform extends Controller
         return view('contact')->with('name',$name);
     }
 
+    // Terms & Conditions 
+    public function terms_title()
+    {
+        $name = "Terms & Conditions";
+        return view('terms_and_conditions')->with('name',$name);
+    }
+
+    // Privacy policy
+    public function privacy_title()
+    {
+        $name = "Privacy policy";
+        return view('privacy_policy')->with('name',$name);
+    }
+
 }

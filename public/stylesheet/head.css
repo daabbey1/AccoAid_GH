@@ -111,6 +111,7 @@ html, body {
         padding-top: 95px;
         padding-left: 140px;
         line-height: 80px;
+        text-align: left;
     }
 
     .hero-section-body{
@@ -118,6 +119,7 @@ html, body {
         padding-left: 140px;
         padding-right: 140px;
         font-size: 20px;
+        text-align: left;
         font-family:Arial, Helvetica, sans-serif;
         /* margin-bottom: 100px; */
     }
@@ -730,21 +732,268 @@ html, body {
 
 /******************************* Contact Section *************************/
 .contact-body{
-    height: 100vh;
+    height: 180vh;
     width: 100%;
-    /* padding: 120px 0px 100px 0px; */
+    padding: 120px 0px 100px 0px;
     background-color: #E7CBCB;
     /* text-align: center; */
 }
 
+.contact-into{
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.contact-into-body{
+    font-family: sans-serif;
+}
+
+.contact-into-head{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
 .contact-box{
-    /* height: 40vh; */
-    width: 80%;
+    /* height: 80vh; */
+    width: 75%;
     margin: auto;
 }
 
+.contact-mini-box{
+    /* padding: 150px 30px; */
+    /* background-color: #da2828; */
+    /* margin-bottom: 300px; */
+}
+
+.meeting-form{
+    padding: 50px 60px;
+    background-color: white;
+}
+
+.meeting-title{
+    color: tomato;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.meeting-row{
+    margin-bottom: 20px;
+    /* color: tomato; */
+}
+
+.book-submit{
+    background-color: white;
+    color: tomato;
+    font-style: normal;
+    font-family:sans-serif;
+    border: 1px solid tomato;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.book-submit:hover{
+    background-color: tomato;
+    color: white;
+    font-style: normal;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 1px; 
+}
+
+.contact-adrress{
+    padding: 50px 55px;
+    background-color: tomato;
+}
+
+.contact-title{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-right-body{
+    margin-top: 40px;
+}
+
+.contact-row{
+    color: white;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-family:sans-serif;
+    /* font-size: 17px; */
+}
+
+.social-media-contacts{
+    margin-top: 150px;
+    padding-top: 120px;
+    height: 65vh;
+    /* background-color: rgb(70, 60, 60); */
+    color: white;
+    text-align: center;
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.922)), url('../images/socilal-media.png') center/cover fixed no-repeat ;
+        /* height: 70vh;
+        margin-top: 120px; */
+}
+
+.media-title1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 4px;
+}
+.media-title2{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.media-line{
+    width: 100px;
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+}
+
+.media-icons{
+    margin-top: 25px;
+}
+
+.facebook,.instagram,.google,.youtube{
+    margin: 10px;
+}
+
+.brand-icons{
+    background-color: tomato;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    padding: 25px;
+}
 
 /******************************* End Contact Section *************************/
+
+
+
+
+
+/******************************* Terms & Conditions Section *************************/
+.terms-and-condition{
+    /* height: 30vh;
+    width: 100%;
+    margin: 120px 0px 100px 0px;
+    background-color: #E7CBCB; */
+}
+
+.terms-condition-head{
+    height: 30vh;
+    width: 100%;
+    margin: 120px 0px 100px 0px;
+    background-color: #E7CBCB; 
+}
+
+.terms-condition-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-top: 5%;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(248, 80, 50, 0.537);
+}
+
+.terms-condition-body{
+    margin: 100px 170px 50px 170px;
+}
+
+.tenants-terms{
+    height: 150vh;
+}
+
+.tenants-terms-title1,.landlords-terms-title1{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tenants-terms-title2,.landlords-terms-title2{
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.terms-line{
+    width: 100px;
+    color: rgb(248, 79, 50);
+    border: 2px solid rgb(248, 79, 50); 
+    margin: 15px 0px 30px 0px;
+}
+
+.tenants-terms-content-title,.landlords-terms-content-title{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.tenants-terms-link{
+    text-decoration: none   ;
+}
+
+.tenants-terms-body1{
+    margin-top: 150px;
+}
+
+.terms-body-title{
+    margin-top: 50px;
+}
+
+.terms-body-content{
+    text-align: justify;
+}
+
+/******************************* End Terms & Conditions Section *************************/
+
+
+/******************************* Privacy Section *************************/
+.privacy-policy-head{
+    height: 30vh;
+    width: 100%;
+    margin: 120px 0px 0px 0px;
+    background-color: #E7CBCB; 
+}
+
+.privacy-policy-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-top: 5%;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(248, 80, 50, 0.537);
+}
+
+.privacy-policy-body{
+    margin: 20px 170px 150px 170px;
+    text-align: justify;
+}
+
+/******************************* End Privacy Section *************************/
 
 
 

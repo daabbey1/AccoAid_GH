@@ -70,8 +70,8 @@
                       <li><a class="dropdown-item" href="review">Reviews</a></li>
                       {{-- <li><a class="dropdown-item" href="#">Help</a></li> --}}
                       <li><a class="dropdown-item" href="contact">Contacts</a></li>
-                      <li><a class="dropdown-item" href="#">Terms & Policy</a></li>
-                      <li><a class="dropdown-item" href="#">Privcy</a></li>
+                      <li><a class="dropdown-item" href="terms and conditions">Terms & Conditions </a></li>
+                      <li><a class="dropdown-item" href="privacy policy">Privacy policy</a></li>
                     </ul>
                   </li>
 
@@ -141,7 +141,7 @@
 
     {{-- Terms of Service | Privacy Policy --}}
     <div class="terms-privacy">
-      <span class="terms">Terms of Services </span> Privacy Policy
+      <span class="terms">Terms of Services </span> <a class="privacy" href="privacy">Privacy Policy</a>
     </div>
 
 
