@@ -240,7 +240,7 @@ html, body {
     .about-hero-background{
         background: linear-gradient(to left top, rgba(0, 0, 255, 0.207), rgba(248, 80, 50, 0.327)) !important;
         height:75vh;
-        text-align: center;
+        text-align: center !important;
     }
 
     .about-section-title{
@@ -253,8 +253,11 @@ html, body {
         padding-top: 23% ;
     }
 
-    .hero-section-body{
-
+    .about-hero-section-body{
+        color: white;
+        padding-left: 140px;
+        padding-right: 140px;
+        font-size: 20px;
     }
 
     /* Our Story */
@@ -834,13 +837,11 @@ html, body {
     margin-top: 150px;
     padding-top: 120px;
     height: 65vh;
-    /* background-color: rgb(70, 60, 60); */
     color: white;
     text-align: center;
     display: block;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.922)), url('../images/socilal-media.png') center/cover fixed no-repeat ;
-        /* height: 70vh;
-        margin-top: 120px; */
+
 }
 
 .media-title1{
@@ -996,7 +997,131 @@ html, body {
 /******************************* End Privacy Section *************************/
 
 
+/****************************** Book A Room Section ******************************/
+.book-a-room{
+    /* height: 100vh; */
+    margin: 160px 120px 120px 120px;
+}
 
+.region-head{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform:capitalize;
+    /* font-family: sans-serif; */
+}
+
+
+.wa-region-img{
+    background-image: url("../images/platform-hero.jpg");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #da2828;
+    border-radius: 20px;
+}
+
+.tamale-region-img{
+    background-image: url("../images/platform-hero.jpg");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #da2828;
+    border-radius: 20px;
+}
+
+.damango-region-img{
+    background-image: url("../images/platform-hero.jpg");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #da2828;
+    border-radius: 20px;
+}
+
+.region-img-link{
+    text-decoration: none;
+}
+
+.region-box{
+    /* background-color: #da2828e7; */
+    background-color: #da282896;
+    /* background: linear-gradient(to left top, rgba(0, 0, 255, 0.207), rgba(248, 80, 50, 0.327)) !important; */
+    height: 25vh;
+    width: 100%;
+    padding: 60px 0px 60px 40px;
+    border-radius: 20px;
+}
+
+.region-img-txt1{
+    color: white;
+    font-size: 23px;
+    font-weight: 650;
+    letter-spacing: 2px;
+}
+
+.region-img-txt2{
+    color: white;
+    font-size: 17px;
+    /* letter-spacing: 1px; */
+}
+
+.region-box-hover:hover{
+    display: block;
+    /* border: 1px solid tomato; */
+    /* background-color: #da282896;height: 25vh;
+    width: 100%;
+    padding: 60px 40px 60px 40px;
+    border-radius: 20px; */
+}
+
+.region-bcg-box{
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: none;
+    text-align: center;
+    width: 30%;
+}
+
+.region-bcg-txt1{
+    color: white;
+    font-size: 23px;
+    font-weight: 650;
+    letter-spacing: 3px;
+    padding-top: 4px;
+    padding-left: 20px;
+    display: none;
+}
+
+.region-bcg-txt2{
+    color: white;
+    font-size: 18px;
+    margin-top: -7px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    display: none;
+}
+
+
+
+
+
+
+
+/****************************** End Book A Room Section ******************************/
 
 
 

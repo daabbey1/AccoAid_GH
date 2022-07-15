@@ -12,7 +12,7 @@
                 About Us
                 {{-- AccoAid <br> get you covered --}}
                 </div>
-                <div class="hero-section-body ">
+                <div class="about-hero-section-body ">
                 ACCOAID get you covered, consectetur adipisicing elit. <br> Amet id praesentium, magnam pariatur saepe eaque maxime  ab <br> doloremque 
                 </div>
 

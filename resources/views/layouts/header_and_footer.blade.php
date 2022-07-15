@@ -55,7 +55,7 @@
               <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-head">
                   <li class="nav-item mx-5">
-                    <a class="nav-link  " aria-current="" href="#">Book A Room</a>
+                    <a class="nav-link  " aria-current="" href="book-a-room">Book A Room</a>
                   </li>
                   
                   <li class="nav-item dropdown mx-5 ">
@@ -70,8 +70,8 @@
                       <li><a class="dropdown-item" href="review">Reviews</a></li>
                       {{-- <li><a class="dropdown-item" href="#">Help</a></li> --}}
                       <li><a class="dropdown-item" href="contact">Contacts</a></li>
-                      <li><a class="dropdown-item" href="terms and conditions">Terms & Conditions </a></li>
-                      <li><a class="dropdown-item" href="privacy policy">Privacy policy</a></li>
+                      <li><a class="dropdown-item" href="terms-and-conditions">Terms & Conditions </a></li>
+                      <li><a class="dropdown-item" href="privacy-policy">Privacy policy</a></li>
                     </ul>
                   </li>
 
@@ -147,6 +147,7 @@
 
 
     {{-- Bootstrap files --}}
+    <script src="js/backendScript.js"></script>
     <script src="js/Bootstrapjquery.js"></script>
     <script defer src="js/all.js"></script>
     <script src="js/Propper.js"></script>

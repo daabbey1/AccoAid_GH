@@ -55,4 +55,11 @@ class platform extends Controller
         return view('privacy_policy')->with('name',$name);
     }
 
+    // Book a room
+    public function book_title()
+    {
+        $name = "Book a room";
+        return view('book_a_room')->with('name',$name);
+    }
+
 }
